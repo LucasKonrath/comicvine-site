@@ -1,0 +1,11 @@
+.character-title{
+    font-family: "Impact", Charcoal, sans-serif;
+    text-shadow: 4px 4px #ff0000;
+}
+.jumbotron{
+    background-image: url('https://t4.ftcdn.net/jpg/00/79/38/05/240_F_79380550_L5FasJtFS6zbYWVMqi8futv0G7tUli5x.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: white;
+      color: #f5ff03;
+}

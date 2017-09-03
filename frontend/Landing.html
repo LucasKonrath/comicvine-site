@@ -1,0 +1,15 @@
+
+
+<div class="container-fluid">
+<div class="page-header">
+  <h1>Comicvine API AngularJS</h1>
+</div>
+<div class="jumbotron">
+   <h1 class="character-title">Personagens</h1>
+ </div>
+     <div class="col-sm-3" ng-repeat="character in characters">
+         <div class="row"> <a href="{{character.site_detail_url}}">{{character.name}}</a> </div>
+           <div class="row"><img ng-src="{{character.image.icon_url || 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2000px-No_image_available.svg.png'}}" style="width:80px;height:80px;">
+            </div>
+         </div>
+    </div>    
